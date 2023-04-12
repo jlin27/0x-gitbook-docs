@@ -37,9 +37,9 @@ Under the hood, the API performs certain tasks:
 
 * **Queries prices** from multiple DEXs and market makers and **aggregates the liquidity** from the queried sources to provide the best price possible. Think of how Google flights aggregates  flight prices for a certain time and date to help you find the best price, `/swap` similarly helps you find the best price across DeFi liquidity sources.&#x20;
 * Swap API’s **smart order routing** algorithm splits up your transaction across different sources to maximize the overall return on your swap. Read more about smart order routing [here](https://blog.0xproject.com/0x-apis-smart-order-routing-7af0195515e5).&#x20;
-* Swap API's **** [**Slippage Protection** ](https://docs.0x.org/0x-api-swap/advanced-topics/slippage-protection)enables developers to surface more reliable quotes and consistently deliver the best executed price to users.
-* Swap API's **** [**Price Impact Protection**](advanced-topics/price-impact-protection.md) calculates price impact estimates, and allows developers to easily notify users if insufficient liquidity may negatively affect the price.&#x20;
-* 0x API's[ **** ](https://docs.0x.org/0x-api-swap/advanced-topics/slippage-protection)responses are returned in a format that can be **easily executed using the Web3 library of your choice**
+* Swap API's [**Slippage Protection** ](https://docs.0x.org/0x-api-swap/advanced-topics/slippage-protection)enables developers to surface more reliable quotes and consistently deliver the best executed price to users.
+* Swap API's [**Price Impact Protection**](advanced-topics/price-impact-protection.md) calculates price impact estimates, and allows developers to easily notify users if insufficient liquidity may negatively affect the price.&#x20;
+* 0x API's[ ](https://docs.0x.org/0x-api-swap/advanced-topics/slippage-protection)responses are returned in a format that can be **easily executed using the Web3 library of your choice**
 
 {% hint style="info" %}
 This API is intended for public use. If you are an integrator who needs access higher rate limits, please fill out the [0x API Taker Integration Request Form.](https://www.0x.org/#contact)
@@ -70,7 +70,7 @@ This section contains the following docs and guides
 * [swap-tokens-with-0x-swap-api.md](guides/swap-tokens-with-0x-swap-api.md "mention")
 * [use-0x-api-liquidity-in-your-smart-contracts.md](guides/use-0x-api-liquidity-in-your-smart-contracts.md "mention")
 * [accessing-rfq-liquidity-on-0x-api.md](guides/accessing-rfq-liquidity-on-0x-api.md "mention")
-* ****[**How to Build a Token Swap Dapp With 0x API**](https://docs.alchemy.com/alchemy/road-to-web3/weekly-learning-challenges/9.-how-to-build-a-token-swap-dapp-with-0x-api)****
+* [**How to Build a Token Swap Dapp With 0x API**](https://docs.alchemy.com/alchemy/road-to-web3/weekly-learning-challenges/9.-how-to-build-a-token-swap-dapp-with-0x-api)
 * [troubleshooting-0x-api-swaps.md](guides/troubleshooting-0x-api-swaps.md "mention")
 * [working-in-the-testnet.md](../limit-orders-advanced-traders/guides/working-in-the-testnet.md "mention")
 

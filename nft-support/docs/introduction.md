@@ -31,8 +31,8 @@ Users can sign an off-chain order to indicate that they are interested in:
 
 There are two Solidity order `structs`:
 
-* ``[`ERC721Order`](../../protocol/docs/exchange-proxy/features/erc721orders.md) for buying/selling ERC721 assets
-* ``[`ERC1155Order`](https://docs.0x.org/protocol/docs/exchange-proxy/features/erc1155orders) for buying/selling ERC1155 assets.
+* [`ERC721Order`](../../protocol/docs/exchange-proxy/features/erc721orders.md) for buying/selling ERC721 assets
+* [`ERC1155Order`](https://docs.0x.org/protocol/docs/exchange-proxy/features/erc1155orders) for buying/selling ERC1155 assets.
 
 `ERC1155Order` has one additional field compared to `ERC721Order`, used to specify the amount of the ERC1155 being bought or sold. This would be used for fungible ERC1155 assets.
 

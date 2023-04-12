@@ -31,16 +31,16 @@ This is the entity who creates 0x orders and _provides liquidity_ into the syste
 * On-chain liquidity - DEXs, AMMs (e.g. Uniswap, Curve, Bancor)
 * Off-chain liquidity - Professional Market Makers, 0x's Open Orderbook network
 * _Relevant Docs:_
-  * __[Broken link](broken-reference "mention") _-_ Professional Market Making With Limit Orders
-  * __[Broken link](broken-reference "mention") _-_ Sharing Limit Orders
-  * __[Broken link](broken-reference "mention") _-_ Filling and Managing Limit Orders
+  * [Broken link](broken-reference "mention") _-_ Professional Market Making With Limit Orders
+  * [Broken link](broken-reference "mention") _-_ Sharing Limit Orders
+  * [Broken link](broken-reference "mention") _-_ Filling and Managing Limit Orders
 
 #### **Demand (aka Takers)**
 
-This is the entity who wants the Maker's asset. The Takers agree to trade their asset for the Maker's asset; in other words, __ they _consume the 0x liquidity_. **** Examples include projects such as MetaMask, Coinbase, and dydx.
+This is the entity who wants the Maker's asset. The Takers agree to trade their asset for the Maker's asset; in other words, they _consume the 0x liquidity_. Examples include projects such as MetaMask, Coinbase, and dydx.
 
 * _Relevant Docs:_
-  * __[Broken link](broken-reference "mention") - Programatically execute a ERC20 token trade
+  * [Broken link](broken-reference "mention") - Programatically execute a ERC20 token trade
   * [Broken link](broken-reference "mention") - NFT Limit Orders (ERC721 + ERC1155)
 
 ### **Governance**
@@ -48,7 +48,7 @@ This is the entity who wants the Maker's asset. The Takers agree to trade their 
 In addition to Makers and Takers is the 0x Community DAO, which is the collective governing voice of the 0x protocol and the ZRX token.&#x20;
 
 * _Relevant Docs:_&#x20;
-  * __[Broken link](broken-reference "mention")
+  * [Broken link](broken-reference "mention")
 
 ## 0x Protocol, API, and DApps
 
@@ -84,7 +84,7 @@ Let’s look into how a 0x order is executed.
 3. The order is shared with counter-parties.
    * If the Maker of the 0x order already knows their desired counter-party, they can send the order directly (via email, chat, or over-the-counter platform)
    * If the Maker doesn’t know a counter-party willing to take the trade, they can submit the order to orderbook.&#x20;
-4. 0x API aggregates liquidity across all the [sources](introduction-to-0x.md#supply-aka-makers) to surface the best price for the order to the Taker. 0x helps traders create, find, and fill the 0x orders through the paradigm of __ [_off-chain relay and on-chain settlement_](../developer-resources/glossary.md#off-chain-relay-on-chain-settlement). This means that 0x does not store orders on the blockchain; instead, orders are stored off-chain, and trade settlement only occurs on-chain. This unique feature makes 0x a flexible and gas-efficient DEX protocol for developers to build on.
+4. 0x API aggregates liquidity across all the [sources](introduction-to-0x.md#supply-aka-makers) to surface the best price for the order to the Taker. 0x helps traders create, find, and fill the 0x orders through the paradigm of [_off-chain relay and on-chain settlement_](../developer-resources/glossary.md#off-chain-relay-on-chain-settlement). This means that 0x does not store orders on the blockchain; instead, orders are stored off-chain, and trade settlement only occurs on-chain. This unique feature makes 0x a flexible and gas-efficient DEX protocol for developers to build on.
 5. The Taker fills the 0x order by submitting the order and the amount they will fill it for to the blockchain.
 6. The 0x protocol’s settlement logic verifies the Maker’s digital signature and that all the conditions of the trade are satisfied. If so, the assets involved are [atomically swapped](../developer-resources/glossary.md#atomically-swapped) between Maker and Taker. If not, the trade is reverted.
 

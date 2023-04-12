@@ -181,7 +181,7 @@ event OrderSignerRegistered(
 
 ## Relevant Code
 
-* ``[`INativeOrdersFeature.sol`](https://github.com/0xProject/protocol/blob/development/contracts/zero-ex/contracts/src/features/interfaces/INativeOrdersFeature.sol)``
-* ``[`LibNativeOrders.sol`](https://github.com/0xProject/protocol/blob/development/contracts/zero-ex/contracts/src/features/libs/LibNativeOrder.sol)``
-* ``[`LibSignature.sol`](https://github.com/0xProject/protocol/blob/development/contracts/zero-ex/contracts/src/features/libs/LibSignature.sol)``
-* &#x20;[`NativeOrdersFeature.sol`](https://github.com/0xProject/protocol/blob/development/contracts/zero-ex/contracts/src/features/NativeOrdersFeature.sol)``
+* [`INativeOrdersFeature.sol`](https://github.com/0xProject/protocol/blob/development/contracts/zero-ex/contracts/src/features/interfaces/INativeOrdersFeature.sol)
+* [`LibNativeOrders.sol`](https://github.com/0xProject/protocol/blob/development/contracts/zero-ex/contracts/src/features/libs/LibNativeOrder.sol)
+* [`LibSignature.sol`](https://github.com/0xProject/protocol/blob/development/contracts/zero-ex/contracts/src/features/libs/LibSignature.sol)
+* &#x20;[`NativeOrdersFeature.sol`](https://github.com/0xProject/protocol/blob/development/contracts/zero-ex/contracts/src/features/NativeOrdersFeature.sol)

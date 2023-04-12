@@ -12,7 +12,7 @@ Here's a quick pre-flight checklist of things that need to be in order for a swa
 
 The taker (whomever is executing the swap transaction) should hold at _least_ the `sellAmount` of `sellToken`. They also should approve the `allowanceTarget` (typically the Exchange Proxy) to spend at least the same amount for that token.
 
-#### &#x20;__ Gas Limits
+#### &#x20;Gas Limits
 
 The transaction needs to be submitted with enough gas. Due to the nondeterministic nature of the on-chain settlement process, the swap may require more than what an `eth_estimateGas` RPC call returns. Adding a 20-50% buffer to the estimated gas is recommended. Any unused gas will be refunded to the transaction submitter.
 

@@ -65,7 +65,7 @@ The following section includes a summary of the Request and Response changes rel
 
 The `enableSlippageProtection` parameter (an Optional Boolean) has been added to the [**`/swap/quote`**](../api-references/get-swap-v1-quote.md) and [**`/swap/price`**](../api-references/get-swap-v1-price.md) endpoints.
 
-* If it is set to `true` __ or _not set_, the quote will automatically adjust for MEV-aware slippage.
+* If it is set to `true` or _not set_, the quote will automatically adjust for MEV-aware slippage.
 * If set to `false`, the quote returned will not be adjusted for MEV-aware slippage.
 
 {% hint style="warning" %}

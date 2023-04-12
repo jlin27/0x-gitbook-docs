@@ -74,9 +74,8 @@ Gasless approvals and gasless swaps are distinct transactions and they each requ
 
 <summary>What does a gasless approve + swap happy path look like, using Tx Relay?</summary>
 
-Click to expand the image: <img src="../../.gitbook/assets/image (6).png" alt="" data-size="original">
+Click to expand the image: <img src="../../.gitbook/assets/image (6) (1).png" alt="" data-size="original">
 
 </details>
 
-****\
-****
+\

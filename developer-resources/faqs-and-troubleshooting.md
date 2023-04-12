@@ -2,14 +2,14 @@
 
 **Categories**
 
-* [🧰 **Troubleshooting**](faqs-and-troubleshooting.md#troubleshooting)****
-* ****[**🔄 0x Swap API**](faqs-and-troubleshooting.md#0x-api-swap-1)****
-  * 📜 [**About 0x API**](faqs-and-troubleshooting.md#about-0x-api)****
-  * 💻 [**Parmeter Questions**](faqs-and-troubleshooting.md#parameter-questions)****
-  * 🏆 [**Best Practices**](faqs-and-troubleshooting.md#best-practices)****
-* [⛽ **Tx Relay API**](broken-reference)****
-* [🌐 **Protocol**](faqs-and-troubleshooting.md#protocol)****
-* [📬 **Contact the 0x Labs Team**](faqs-and-troubleshooting.md#contact-the-0x-team)****
+* [🧰 **Troubleshooting**](faqs-and-troubleshooting.md#troubleshooting)
+* [**🔄 0x Swap API**](faqs-and-troubleshooting.md#0x-api-swap-1)
+  * 📜 [**About 0x API**](faqs-and-troubleshooting.md#about-0x-api)
+  * 💻 [**Parmeter Questions**](faqs-and-troubleshooting.md#parameter-questions)
+  * 🏆 [**Best Practices**](faqs-and-troubleshooting.md#best-practices)
+* [⛽ **Tx Relay API**](broken-reference)
+* [🌐 **Protocol**](faqs-and-troubleshooting.md#protocol)
+* [📬 **Contact the 0x Labs Team**](faqs-and-troubleshooting.md#contact-the-0x-team)
 
 ## 🧰 **Troubleshooting**
 
@@ -160,7 +160,7 @@ In summary, 0x Labs will only recoup the surplus when our product is able to cre
 \
 This model ensures that we can continue to invest into long-term growth of our products and continue to provide our integrators and end users the best experience.&#x20;
 
-**🔑 Interested** **to** **get** **an** **API** **key?** **Please** **fill** **out** **the** [**request form.**](https://www.0x.org/#contact)****
+**🔑 Interested** **to** **get** **an** **API** **key?** **Please** **fill** **out** **the** [**request form.**](https://www.0x.org/#contact)
 
 </details>
 
@@ -250,14 +250,14 @@ Read our [full blog post](https://blog.0x.org/0x-swap-api-price-impact-protectio
 
 \
 **What is price impact?**\
-****\
-****Price impact is the influence that a user’s trade has over the market price of an underlying trading pair. It is directly related to the amount of liquidity in the pool. Price impact can be particularly high for illiquid trading pairs and in certain instances can cause significant losses for traders.
+\
+Price impact is the influence that a user’s trade has over the market price of an underlying trading pair. It is directly related to the amount of liquidity in the pool. Price impact can be particularly high for illiquid trading pairs and in certain instances can cause significant losses for traders.
 
 This is different from price slippage, although the terms are often mistakenly used interchangeably. Price slippage refers to the difference between the executed price and the quoted price, caused by external market movements unrelated to your trade.\
 \
 **What is our solution?** \
-****\
-****We launched Price Impact Protection to make it easier to protect users from getting rekt by illiquid markets. Despite Swap API enabling access to the deepest liquidity from over 70+ exchanges, there are still some long-tailed token pairs that suffer from suboptimal liquidity on decentralized exchanges.
+\
+We launched Price Impact Protection to make it easier to protect users from getting rekt by illiquid markets. Despite Swap API enabling access to the deepest liquidity from over 70+ exchanges, there are still some long-tailed token pairs that suffer from suboptimal liquidity on decentralized exchanges.
 
 When we are able to calculate price impact estimates, users leveraging the Swap API will be notified when their trade faces a price impact over a certain threshold. The API will return an error of insufficient liquidity due to the price impact being higher than the defined limit. The threshold is easily customizable by setting `PriceImpactProtectionPercentage` anywhere from 0-1, so we encourage every Swap API user to customize this parameter based on their needs and tolerance.
 
@@ -297,7 +297,7 @@ When the transaction has gone through, the fee amount will be sent to the `feeRe
 \
 Details about these parameters can be found in [get-swap-v1-quote.md](../0x-swap-api/api-references/get-swap-v1-quote.md "mention").&#x20;
 
-**Also see** [#how-is-a-fee-returned-by-the-api-is-it-part-of-the-quoted-price-or-is-it-a-separate-parameter](faqs-and-troubleshooting.md#how-is-a-fee-returned-by-the-api-is-it-part-of-the-quoted-price-or-is-it-a-separate-parameter "mention")****
+**Also see** [#how-is-a-fee-returned-by-the-api-is-it-part-of-the-quoted-price-or-is-it-a-separate-parameter](faqs-and-troubleshooting.md#how-is-a-fee-returned-by-the-api-is-it-part-of-the-quoted-price-or-is-it-a-separate-parameter "mention")
 
 </details>
 

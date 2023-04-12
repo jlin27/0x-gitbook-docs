@@ -210,7 +210,7 @@ Some fill functions accept a `callbackData` `bytes` parameter. If this parameter
 ### Information Functions (read-only)
 
 * **`validateERC1155OrderSignature(ERC1155Order order, Signature signature)`**
-  * Check if `signature` is valid for `order`. Reverts if not. ``&#x20;
+  * Check if `signature` is valid for `order`. Reverts if not.&#x20;
 * **`validateERC1155OrderProperties(ERC1155Order order, uint256 erc1155TokenId)`**
   * Validates that a given `erc1155TokenId` satisfies a _buy_ order.
   * For orders with a known token ID, verifies that they match.

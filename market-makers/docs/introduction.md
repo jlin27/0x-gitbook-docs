@@ -44,7 +44,7 @@ In order to qualify for RFQ liquidity, the request to `/swap/v1/quote` must incl
 
 The indicative pricing resource is hosted at [`/swap/v1/price`](../../0x-swap-api/api-references/get-swap-v1-price.md) and responds with pricing information, but that response does not contain a full 0x order, so it does not constitute a legitimate transaction that can be submitted to the Ethereum network.  This resource can be used by price feeds and other applications that do not intend to submit an actual transaction.
 
-****
+
 
 ## Quote Validation
 

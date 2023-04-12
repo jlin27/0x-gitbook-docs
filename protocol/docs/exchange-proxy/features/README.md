@@ -8,11 +8,11 @@ This is a non-exhaustive overview of commonly referenced features that may be re
 \
 For a deep dive into all the features of the 0x Protocol, check out the [0x Protocol documentation](https://protocol.0x.org/en/latest/).&#x20;
 
-* ****[**NativeOrdersFeature**](nativeorders.md)****
+* [**NativeOrdersFeature**](nativeorders.md)
   * Settlement and management of ERC20 Limit and RFQ Orders.
 * **BatchFillNativeOrdersFeature**
   * Exposes batch fill functions for ERC20 Limit and RFQ Orders.
-* [**ERC721OrdersFeature**](erc721orders.md) **/** [**ERC1155OrdersFeature**](erc1155orders.md)****
+* [**ERC721OrdersFeature**](erc721orders.md) **/** [**ERC1155OrdersFeature**](erc1155orders.md)
   * Settlement and management of NFT Limit Orders.
 * **TransformERC20Feature**
   * Primary fulfillment function for 0x API swap quotes.

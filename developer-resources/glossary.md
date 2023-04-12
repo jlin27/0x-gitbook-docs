@@ -15,7 +15,7 @@ Examples of AMMs include Uniswap, Sushiswap, Curve, Balancer, Bancor, and many o
 
 ### **Buys and Sells**
 
-When we say “buys” vs “sells” in the context of **** API `/swap` endpoint, this is what we mean:
+When we say “buys” vs “sells” in the context of API `/swap` endpoint, this is what we mean:
 
 * _Imagine a user is trading **token A for token B**._
   * **Sell**: a sell is when the user is specifying the units of token A that they **would like to send**
@@ -42,7 +42,7 @@ This is the first 4 bytes of the **call data** (see above) that determine which 
 
 ### **Impermanent Loss (IL)**
 
-When **** the two assets in a pool start to diverge drastically in price (one becomes relatively expensive compared to the other), liquidity pools incur an opportunity cost where they would be better off simply holding each asset, as opposed to providing liquidity to the pool. This is also known as **Divergence Loss**.
+When the two assets in a pool start to diverge drastically in price (one becomes relatively expensive compared to the other), liquidity pools incur an opportunity cost where they would be better off simply holding each asset, as opposed to providing liquidity to the pool. This is also known as **Divergence Loss**.
 
 ### Maker
 
@@ -54,7 +54,7 @@ Unlike other decentralized exchanges that function entirely on-chain, 0x does no
 
 ### **0x API**
 
-The **** 0x API is a collection of services and endpoints that sit on top of the 0x Protocol. It allows users to access aggregated liquidity from dozens of on-chain and off-chain decentralized exchange networks and across multiple blockchains. It comes with many parameters to customize your requests for your application and your users.
+The 0x API is a collection of services and endpoints that sit on top of the 0x Protocol. It allows users to access aggregated liquidity from dozens of on-chain and off-chain decentralized exchange networks and across multiple blockchains. It comes with many parameters to customize your requests for your application and your users.
 
 ### **0x DAO**
 
@@ -99,4 +99,3 @@ This is the Demand side of the the ecosystem. Takers fill 0x orders by agreeing 
 
 ![The 0x Ecosystem is comprised of Supply (Makers) and Demand (Takers)](<../.gitbook/assets/Screen Shot 2022-01-26 at 1.59.15 PM.png>)
 
-****

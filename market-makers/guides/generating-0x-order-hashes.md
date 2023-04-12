@@ -12,7 +12,7 @@ A 0x Order Hash acts as both the _identifier_ for a 0x order, as well as the _me
 
 ### Generating 0x Order Hashes with @0x/protocol-utils
 
-The easiest way of generating 0x Order Hashes is using the npm packages [`@0x/protocol-utils`](https://www.npmjs.com/package/@0x/protocol-utils) and [`@0x/utils`](https://www.npmjs.com/package/@0x/utils)``
+The easiest way of generating 0x Order Hashes is using the npm packages [`@0x/protocol-utils`](https://www.npmjs.com/package/@0x/protocol-utils) and [`@0x/utils`](https://www.npmjs.com/package/@0x/utils)
 
 ```bash
 yarn add @0x/protocol-utils @0x/utils
