@@ -4,7 +4,7 @@ description: With Existing Tools and Resources
 
 # 📊 How to Get 0x and Matcha Data
 
-\* _updated as of Apr 6, 2023_
+\* _updated as of Apr 12, 2023_
 
 This guide introduces the dashboards and tools available to explore 0x data, for different needs. In this piece, we are mainly focusing on ready-made analytics solutions that don’t require advanced data scraping. The following solutions are ideal for teams working on analytics product or data information sites, looking to integrate 0x data with minimum effort; or for DeFi researchers/analysts looking for ready made, reliable sources about the 0x ecosystem. At the end of the document we provide links to resources for advanced use cases.
 
@@ -55,7 +55,7 @@ Below is a summary table for different attributions:
 
 ## 🧮 Available Data Tools 📎
 
-<figure><img src="../.gitbook/assets/image (2).png" alt=""><figcaption><p>Existing &#x26; Coming Atttributions</p></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (4).png" alt=""><figcaption><p>Existing &#x26; Incoming Attributions</p></figcaption></figure>
 
 ### 🔍 0x Explorer
 
